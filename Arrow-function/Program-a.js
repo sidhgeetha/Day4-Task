@@ -14,3 +14,6 @@ const oddout = (arr) => {
 };
 
 console.log(oddout([1,2,3,4,5,6]))
+
+
+
