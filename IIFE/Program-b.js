@@ -5,12 +5,14 @@ let checkName = (function (string) {
     string = string.toLowerCase().split('');
     console.log(string);
     for (let i = 0; i < 1; i++) {
-        string[i] = string[i][0].toUpperCase();
+        string[i] = string[i].toUpperCase();
 }
 return string.join('');
 }) ("geetha");
   
   console.log(checkName);
+
+  
   
   
   
